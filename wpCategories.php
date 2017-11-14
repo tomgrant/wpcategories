@@ -29,8 +29,8 @@ Class WpCategories{
     }    
 
     public function register_fields() {
-        register_setting( 'general', 'favorite_color', 'esc_attr' );
-        add_settings_field('fav_color', '<label for="favorite_color">'.__('Update categories' , 'favorite_color' ).'</label>' , array($this, 'fields_html') , 'general' );
+        register_setting( 'general', 'update_now', 'esc_attr' );
+        add_settings_field('update_now', '<label for="update_external_categories">'.__('Update categories' , 'update_now' ).'</label>' , array($this, 'fields_html') , 'general' );
     }
     public function fields_html() {
         ?>
