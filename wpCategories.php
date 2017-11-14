@@ -69,7 +69,7 @@ Class WpCategories{
     public function add_cron_schedules($schedules){
         if(!isset($schedules["30min"])){
             $schedules["30min"] = array(
-                'interval' => 30*1,
+                'interval' => 30*60,
                 'display' => __('Once every 30 minutes'));
         }
         return $schedules;
