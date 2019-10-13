@@ -1,5 +1,5 @@
 #Project notes
-    - While developing I mad esure to store the id of the taxonomy as meta so that I would avoid any potential conflicts if the target wp site was using these ID's I kept in mind making sure the plugin should have minimal impact on any exisitng data in a set up. 
+    - While developing I made sure to store the id of the taxonomy as meta so that I would avoid any potential conflicts if the target wp site was using these ID's I kept in mind making sure the plugin should have minimal impact on any exisitng data in a set up. 
     - I opt in for an ajax request on the setting page for 'update categories now', I in general prefer to work in this way
     - Most of the work was done within the termsmeta table, I made use of SQL when dealing with this table
 
